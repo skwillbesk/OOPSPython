@@ -39,7 +39,6 @@ class Department:
         courseDict = {}
         for student in sList:
             try:
-        
                 courseDict[student.courseEnrolled] += 1
             except KeyError:
                 courseDict[student.courseEnrolled] = 1  
